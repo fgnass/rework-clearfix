@@ -1,10 +1,10 @@
-# rework-clearfix [![Build Status](https://travis-ci.org/fgnass/rework-clearfix.png)](https://travis-ci.org/fgnass/rework-clearfix)
+## rework-clearfix [![Build Status](https://travis-ci.org/fgnass/rework-clearfix.png)](https://travis-ci.org/fgnass/rework-clearfix)
 
 [Rework](https://github.com/visionmedia/rework) plugin that adds support for
 `clear: content` which will expand to the
 [micro clearfix](http://nicolasgallagher.com/micro-clearfix-hack/) hack:
 
-## Example
+### Example
 
 ```css
 .foo {
@@ -30,7 +30,7 @@ Yields:
 }
 ```
 
-## Usage
+### Usage
 
 ```js
   var rework = require('rework');
@@ -39,7 +39,7 @@ Yields:
   rework(css).use(clearfix);
 ```
 
-## The MIT License (MIT)
+### The MIT License (MIT)
 
 Copyright (c) 2013 Felix Gnass
 
