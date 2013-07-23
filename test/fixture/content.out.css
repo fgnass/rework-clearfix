@@ -1,0 +1,13 @@
+.foo {
+  *zoom: 1;
+}
+
+.foo:before,
+.foo:after {
+  content: " ";
+  display: table;
+}
+
+.foo:after {
+  clear: both;
+}

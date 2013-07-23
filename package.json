@@ -1,0 +1,24 @@
+{
+  "name": "rework-clearfix",
+  "version": "0.0.1",
+  "description": "Rework clearfix plugin",
+  "keywords": [
+    "rework",
+    "css",
+    "clearfix"
+  ],
+  "author": "Felix Gnass",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/fgnass/rework-clearfix.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "rework": "*"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "mocha --require should"
+  }
+}
