@@ -31,7 +31,7 @@ function pseudo(sel, pseudos) {
 function shouldClear(decl) {
   if (!decl) return
   for (var i=0; i < decl.length; i++) {
-    if (decl[i].property == 'clear' && decl[i].value == 'content') {
+    if (decl[i].property == 'clear' && /^(content|fix)$/.test(decl[i].value)) {
       decl.splice(i, 1)
       return true
     }
