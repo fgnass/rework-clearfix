@@ -2,6 +2,7 @@
 {
   /* Additional globals */
   "predef": [
+    "describe", "it"
   ],
 
   /* Enforcing Options */
