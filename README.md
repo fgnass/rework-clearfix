@@ -1,14 +1,14 @@
 ## rework-clearfix [![Build Status](https://travis-ci.org/fgnass/rework-clearfix.png)](https://travis-ci.org/fgnass/rework-clearfix)
 
 [Rework](https://github.com/visionmedia/rework) plugin that adds support for
-`clear: fix` which will expand to the
+`clear: content` which will expand to the
 [micro clearfix](http://nicolasgallagher.com/micro-clearfix-hack/) hack:
 
 ### Example
 
 ```css
 .foo {
-  clear: fix;
+  clear: content;
 }
 ```
 
